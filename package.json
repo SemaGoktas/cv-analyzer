@@ -1,0 +1,35 @@
+{
+  "name": "cv-analyzer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "llm-start": "ollama serve"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.49",
+    "@langchain/core": "^0.3.63",
+    "@langchain/ollama": "^0.2.3",
+    "@tailwindcss/typography": "^0.5.16",
+    "langchain": "^0.3.30",
+    "next": "15.3.5",
+    "pdf-parse": "^1.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.5",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5"
+  }
+}
