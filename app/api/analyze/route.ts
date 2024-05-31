@@ -73,6 +73,8 @@ export async function POST(request: Request) {
 
     ### OUTPUT:
     - Provide ONLY a numerical score between 0-100
+    - Do NOT explain
+    - Use the format: \`Score: 72\`
     `;
 
 
